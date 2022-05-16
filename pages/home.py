@@ -95,11 +95,8 @@ def app():
             <button type="submit">Send</button>
         </form>
         """
-        left_column, right_column = st.columns(2)
+        left_column, right_column = st.columns([3,1])
         with left_column:
             st.markdown(contact_form, unsafe_allow_html=True)
         with right_column:
-            # site------
-            map_data = pd.DataFrame([], columns=['lat', 'lon'])
-            map_data.loc[0, :] = [29.591640, 106.3175]
-            st.map(map_data)
+        	st.empty()
