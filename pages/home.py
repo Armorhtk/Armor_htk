@@ -55,7 +55,7 @@ def app():
                 
                 ● 📊 I’m currently learning Data Analysis and Mining and Fine-grained text classification.
                 
-                ● 📧 How to reach me: [Github](https://github.com/Armorhtk) / [EMAIL](htstudy@163.com)
+                ● 📧 How to reach me: [Github](https://github.com/Armorhtk)
                 
                 ● ✨ 成人不自在，自在不成人
                 """
