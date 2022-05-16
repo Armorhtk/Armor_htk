@@ -35,9 +35,6 @@ def app():
     load_css('style/style.css')
     lottie_coding = load_lottic('https://assets2.lottiefiles.com/packages/lf20_rtsrhxhg.json')
     img_any = load_img('images/imgany.jpg')
-    img_sphere = load_img('images/imgany.jpg')
-    img_phase_separation = load_img('images/imgany.jpg')
-    img_nano = load_img('images/imgany.jpg')
 
     st.header("Home Page")
 
@@ -58,12 +55,12 @@ def app():
                 
                 ● 📊 I’m currently learning Data Analysis and Mining and Fine-grained text classification.
                 
-                ● 📧 How to reach me: htkstudy@163.com / [Github](https://github.com/Armorhtk)
+                ● 📧 How to reach me: [Github](https://github.com/Armorhtk) / [EMAIL](htstudy@163.com)
                 
                 ● ✨ 成人不自在，自在不成人
                 """
             )
-        st.audio("audio/靠近-咻咻满.mp3")
+        # st.audio("audio/靠近-咻咻满.mp3")
 
     # ---- WHAT I DO ----
     with st.container():
@@ -81,55 +78,6 @@ def app():
             st.write("[Yuque Channel >](https://www.yuque.com/armor-novr7)")
         with left_column:
             st.image(img_any,width=300)
-
-    # ---- Blender ----
-    # # Sphere
-    # with st.container():
-    #     st.write("---")
-    #     st.header("Blender tutorials")
-    #     st.write("##")
-    #     image_column, text_column = st.columns((1, 2))
-    #     with image_column:
-    #         st.image(img_sphere)
-    #     with text_column:
-    #         st.subheader("The explosion ball")
-    #         st.write(
-    #             """
-    #             Learn how to model a explosion ball!
-    #             In this tutorial, I'll show you exactly how to do it
-    #             """
-    #         )
-    #         st.markdown("[Watch Video...](https://www.bilibili.com/video/BV1DK411H795)")
-    #
-    # # phase separation
-    # with st.container():
-    #     image_column, text_column = st.columns((1, 2))
-    #     with image_column:
-    #         st.image(img_phase_separation)
-    #     with text_column:
-    #         st.subheader("Phase Separation")
-    #         st.write(
-    #             """
-    #             Learn how to create a phase separation texture!
-    #             In this tutorial, I'll show you exactly how to do it.
-    #             """
-    #         )
-    #         st.markdown("[Watch Video...](https://www.bilibili.com/video/BV1TT4y1J72n)")
-    #
-    # # nano
-    # with st.container():
-    #     image_column, text_column = st.columns((1, 2))
-    #     with image_column:
-    #         st.image(img_nano)
-    #     with text_column:
-    #         st.subheader("Nano Sphere")
-    #         st.write(
-    #             """
-    #             Discover how to make a visually appealing Nano Sphere!
-    #             In this tutorial, I'll show you exactly how to do it.
-    #             """
-    #         )
-    #         st.markdown("[Watch Video...](https://www.bilibili.com/video/BV1yt4y1277N)")
 
     # ---- CONTACT ----
     with st.container():
