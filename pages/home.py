@@ -44,18 +44,21 @@ def app():
         with right_column:
             st_lottie(lottie_coding, height=256, key="coding")
         with left_column:
-
             st.title("Welcome to my home page :sparkles:")
+            st.subheader("About Me")
             st.write("\n\n")
             st.write(
                 """
+                
                 ● :wave: Hi, I am Tingkai Hu , A Postgraduate student from CQUST
                 
                 ● 👨‍💻 I'm passionate on Natural Language Processing and Data Mining....
                 
-                ● 📊 I’m currently learning Data Analysis and Mining and Fine-grained text classification.
+                ● 📊 I’m currently learning Data Mining in the emergency events and Fine-grained text classification.
                 
-                ● 📧 How to reach me: [Github](https://github.com/Armorhtk)
+                ● 📊 My research mainly focuses on text classification, such as Fine-grained text classification, Weakly supervised text classification and so on.
+                
+                ● 📧 How to reach me: htkstudy@163.com / [Github](https://github.com/Armorhtk)
                 
                 ● ✨ 成人不自在，自在不成人
                 """
@@ -67,7 +70,7 @@ def app():
         st.write("---")
         left_column, right_column = st.columns([2,4])
         with right_column:
-            st.header("What I do")
+            st.subheader("What I do")
             st.write("##")
             st.write(
                 """
@@ -82,7 +85,7 @@ def app():
     # ---- CONTACT ----
     with st.container():
         st.write("---")
-        st.header("Get In Touch With Me!")
+        st.subheader("Get In Touch With Me!")
         st.write("##")
 
         # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
